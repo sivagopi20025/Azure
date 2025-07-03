@@ -1,0 +1,18 @@
+{
+	"name": "ds_abs01dataanalyticsinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_abs_001dataanalytics_output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			}
+		},
+		"schema": {}
+	}
+}
