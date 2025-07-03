@@ -1,0 +1,12 @@
+{
+	"name": "ls_abs_001dataanalytics_output",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=abs01dataanalytics;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE0OEVFMjgwLURGQTEtNEU3Ri04NTU2LTIzQ0EwQjg5NTI1Rl81ZDk1YzEzOC0xM2I4LTQ0Y2YtYWEyNS04ZGM2MzU0N2Y2Y2EiDQp9"
+		}
+	}
+}
