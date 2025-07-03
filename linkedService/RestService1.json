@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://github.com/elibracha/titanic-api/blob/master/data/csv/titanic.csv",
+			"url": "https://github.com/elibracha",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
