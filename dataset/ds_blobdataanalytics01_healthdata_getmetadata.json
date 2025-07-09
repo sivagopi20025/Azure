@@ -1,0 +1,22 @@
+{
+	"name": "ds_blobdataanalytics01_healthdata_getmetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_abs_001dataanalytics_output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "healthdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
