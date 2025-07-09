@@ -5,11 +5,6 @@
 			"referenceName": "ls_abs_001dataanalytics_output",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"Filename": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
